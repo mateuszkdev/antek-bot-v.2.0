@@ -1,0 +1,264 @@
+{
+	"basic":{
+		"noperms": "You dont have permissions to use this command! "
+	},
+
+    "name": "English",
+    
+    "translate":{
+		"name": "SebeQ#7803",
+		"id": "355347763271041024"
+	},
+	
+    "message":{
+        "1": "This server is not on the whitelist !\n [Contact with the owner is here](https://discord.gg/ceJCM5Q)",
+		"2": " is prefix! Enter ",
+		"3": "help",
+		"4": "I don't have that command! Enter ",
+		"5": "help**, to see the full list of commands and plug-ins."
+	},
+	"addrole":{
+		"1": "Please provide user who I'm supposed to give role! ",
+		"2": "help addrole",
+		"3": "Please provide role ",
+		"4": "I'm so sorry, I didn't find that role on this server.",
+		"5": "This preson already has that role!",
+		"6": "Added role: ",
+		"7": "**Role**: "
+	},
+	"channel":{
+		"1": "Please provide new name",
+		"2": "Renaming the channel name!",
+		"3": "New name channel: "
+	},
+	"clonechannel":{
+		"1": "Please provide new channel name! ",
+		"2": "A clone of the channel was successfully created",
+		"3": "Name: "
+	},
+	"removerole":{
+		"1": "Please provide user who I'm supposed to take role! ",
+		"2": "Please provide role! ",
+		"3": "I'm so sorry, I didn't find that role on this server.",
+		"4": "This person has no such role!",
+		"5": "The role was taken away: ",
+		"6": "**Role**: "
+	},
+	"help":{
+		"1": "Commands",
+		"2": "help <command>",
+		"3": "Commands plug-in: ",
+		"4": "I'm so sorry, I don't have this command or a plug-in!",
+		"5": "help <command / plug-in>",
+		"6": "Name: ",
+		"7": "Use: ",
+		"8": "Other Name: ", 
+		"9": "`None`",
+		"10": "Description: ", 
+		"12": "Plug-in: ",
+		"13": "Others",
+		"14": "help",
+		"15": "Plug-ins "
+	},
+	"ping":{
+		"1": "My ping:"
+	},
+	"report":{
+		"1": "Please provide the content of the error to be reported",
+		"2": "The application was successfully sent!",
+		"3": "Content of the application:"
+	},
+	"calc":{
+		"1": "Please provide numbers",
+		"2": "One of the numbers given is not a number!",
+		"3": "Operation: ",
+		"4": "The result: ",
+		"5": "Cannot divided by 0 !"
+	},
+	"howlove":{
+		"1": "Please provide user <@mention>",
+		"2": "Loves you on: ",
+		"3": "How Love?"
+	},
+	"kiss":{
+		"1": "Please provide user <@mention>",
+		"2": "kissed"
+	},
+	"numbers":{
+		"1": "Mistake, please provide numbers",
+		"2": "One of the arguments given is not a number",
+		"3": "Mistake: Consider: * First number must be smaller than second | The Numbers cannot be equal",
+		"4": "Mistake: Numbers cannot be smaler from -200 and bigger from 200!",
+		"5": "Difference:",
+		"6": "Sum:",
+		"7": "Quotient:",
+		"8": "Product:",
+		"9": "Numbers:"
+	},
+	"coin":{
+		"1": "Heads",
+		"2": "Tails",
+		"3": "is worth:",
+		"4": "$",
+		"5": "Okay! Fell on:"
+	},
+	"Oball":{
+		"1": ["Yes", "No", "I don't Know...", "Ask later!", "Maybe..", "Maybe yes... Maybe no..", "1945!","Of course... not!", "Of course yes!", "In your dreams", "IDK", "Perhaps no", "XD", "Yeeees", "Sure!", "Tomorrow", "Za miesiąc", "Don't ask for it.", "Yours cat told me so.", "If you tell me how old are you...", "here I am", "I don't like these questions", "How will you make me pierogi <3", "It depends on the weather conditions!", "When you're done 18 years old baby <3", "Do you have a headache? Maybe you have a fever! I'm calling for an exorcist!.", "666", "N O", "Y E S", "Life.", "I'm offended", "I love y||orks - what did you think you were? HA||", "Hello It's me!", "Coronavirus from Wuhan answer you!!!!!", "Buy me a new RAM <3 I send u `Ice.png`"],
+		"2": "No question? Please provide question!",
+		"3": "Sentence, minimum 3 words",
+		"4": "Question:",
+		"5": "Answer:"
+	},
+	"random":{
+		"1": "Please provide numbers",
+		"2": "One of the numbers given is not a number!",
+		"3": "Random numbers:",
+		"4": "From", 
+		"5": "To"
+	},
+	"reverse":{
+		"1": "Please provide text to reverse!"
+	},
+	"botinfo":{
+		"1": "Hey **!** I'm",
+		"2": "simple but I have all needed functions for fun, interesting facts, server care and more!",
+		"3": "My actually version is **2**.0 and I have added more new features and from now I am written on new structure.",
+		"4": "My ID: ",
+		"5": "My discord server",
+		"6": "My author is",
+		"7": "and wrote me completely oneself!",
+		"8": "Interestingly enough, my first version was created **Attention**, in __2018__  and since then experiences my author are constantly evolving!",
+		"9": "__And what? I'll see you on your server? :D__",
+		"10": "Informations about BOT",
+		"11": "help"
+	},
+	"corona":{
+		"1": "All cases:",
+		"2": "All deaths:",
+		"3": "All cured:",
+		"4": "Active:",
+		"5": "Critical:",
+		"6": "Cases per million:",
+		"7": "Sicks today:",
+		"8": "Deaths today:"
+	},
+	"firstmessage":{
+		"1": "Author first message:",
+		"2": "Content:",
+		"3": "Scroll to the message"
+	},
+	"serverinfo":{
+		"1": "Information about",
+		"2": "Server name:",
+		"3": "ID",
+		"4": "Owner:",
+		"5": "Role:",
+		"6": "Channels:",
+		"7": "Users:",
+		"8": "Channel AFK:",
+		"9": "Level MFA:",
+		"10": "Level premium:",
+		"11": "Level veryfication:",
+		"12": "Created:",
+		"13": "There is no",
+		"14": "None?"
+	},
+	"userinfo":{
+		"1": "I haven't found such a person!",
+		"2": "Permissions:",
+		"3": "Online",
+		"4": "I'll be right back",
+		"5": "Do not disturb",
+		"6": "Offline / Hidden",
+		"7": "Name",
+		"8": "Mention",
+		"9": "ID",
+		"10": "Nick", "11": "None",
+		"12": "Color",
+		"13": "Can be banned?", "14": "Yes", "15": "No",
+		"16": "Status",
+		"17": "In", "18": "Nowhere",
+		"19": "Bot?", "20": "Yes", "21": "No",
+		"22": "Last message:", "23": "None",
+		"24": "information",
+		"25": "Tag"
+	},
+	"ban":{
+		"1": "Please provide user to be banned...",
+		"2": "I'm so sorry, I can't ban this user",
+		"3": "Oh no! This is my owner!",
+		"4": "You can't ban yourslef!",
+		"5": "No reason given",
+		"6": "Banned:",
+		"7": "Reason:",
+		"8": "Moderator:"
+	},
+	"broadcast":{
+		"1": "Bad usage",
+		"2": "Announcement",
+		"3": "Please provide content!"
+	},
+	"clear":{
+		"1": "Please provide number of the messages to be cleared",
+		"2": "The quantity given is not a number!",
+		"3": "Cleared",
+		"4": "mesages"
+	},
+	"kick":{
+		"1": "Please provide user to be kicked...",
+		"2": "I'm so sorry, I can't kick this user",
+		"3": "You can't kick yourslef!",
+		"4": "No reason given",
+		"5": "Kicked:",
+		"6": "Reason:",
+		"7": "Moderator:"
+	},
+	"mute":{
+		"1": "Please provide user to be mute / unmute",
+		"2": "This person has the appropriate authority. You can't execute that command on her. It has",
+		"3": "Why do you want to mute yourslef?",
+		"4": "I didn't find the mute role, so I made it.",
+		"5": "No reason given",
+		"6": "Muted:",
+		"7": "Reason:",
+		"8": "Moderator:",
+		"9": "Unmuted:"
+	},
+	"say":{
+		"1": "Please provide text"
+	},
+	"warn":{
+		"1": "Please provide user to be warned...",
+		"2": "No reason given",
+		"3": "Warn:",
+		"4": "Reason:",
+		"5": "Warning from:"
+	},
+	"avatar":{
+		"1": "I didn't find this user",
+		"2": "avatar"
+	},
+	"today":{
+		"1": "Date and time"
+	},
+	"lastmessage":{
+		"1": "Mistake: Please provide user",
+		"2": "You can't check it on yourself, but the time is: 0 seconds",
+		"3": "Last seen:",
+		"4": "ago",
+		"5": "d",
+		"6": "h",
+		"7": "m",
+		"8": "s"
+	},
+	"role":{
+		"1": "I'm not sure, but there's no such role on this server",
+		"2": "ID",
+		"3": "Name",
+		"4": "Mention?",
+		"5": "Yes", "6": "No",
+		"7": "Color:",
+		"8": "Everything about:",
+		"9": "Permissions"
+	}
+}

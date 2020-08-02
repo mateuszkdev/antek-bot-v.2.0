@@ -1,0 +1,60 @@
+const { readdirSync } = require('fs')
+module.exports.run = (bot, message, args, ob) => {
+    var total = ""
+    var kat = ''
+    var kom = ''
+    if(args[0]){
+        let command = args[0]
+        let cmd
+        if(bot.commands.has(command)){
+            cmd = bot.commands.get(command)
+        }
+        else if (bot.aliases.has(command)){
+            cmd = bot.commands.get(bot.aliases.get(command))
+        }
+        if(!cmd) return ob.snap({msg: `Nie mam takiej komendy! \n Wpisz **${ob.data.prefix}pomoc**`})
+        command = cmd.help 
+        return ob.snap({
+            author: `Pomoc komendy: ${command.name.slice(0, 1).toUpperCase() + command.name.slice(1)}`,
+            msg: [
+                `**Komenda**: ${command.name.slice(0, 1).toUpperCase()+command.name.slice(1)}`,
+                `**Opis**: ${command.description || "`Brak opisu`"}`,
+                `**Użycie**: ${command.usage ? `\`${ob.data.prefix}${command.name} ${command.usage}\`` : "`Brak użycia`"}`,
+                `**Inne nazwy**: ${command.aliases ? command.aliases.join(", "): "`Brak`"}`,
+                `**Kategoria**: ${command.category ? command.category : "Inne"}`,
+            ].join("\n")
+        })
+    }
+    const categories = readdirSync("./src/plugins")
+    categories.forEach(category => {
+        const dir = bot.commands.filter(c => c.help.category.toLowerCase() === category.toLowerCase())
+        const capitalise = category.slice(0, 1).toUpperCase()+category.slice(1)
+        try{
+            let j = 0
+            if(dir.size === 0) return
+            if(category !== "Dev") {
+                for(j in dir){
+                    j++
+                }
+               // kom += dir.map(c => `\`${c.help.name}\``, j++).join(', ')
+                //kat += `\n** ${capitalise}** (${j})\n`
+                total += (`\n** ${capitalise}** *(${j})*    \n` + dir.map(c => `\`${c.help.name}\``).join(", "))
+                //total += kat + kom
+            }
+        }catch(e){
+            console.log(e)
+        }
+    })
+    return ob.snap({
+        author: `Komendy (${bot.i})`,
+        msg: total,
+        footer: `${ob.data.prefix}pomoc <komenda>`
+    })
+}
+module.exports.help = {
+    name: "pomoc",
+    aliases: ["help", "h", "p"],
+    description: "Pomoc dotycząca komend",
+    usage: "<komenda>",
+    category: "Podstawowe",
+}

@@ -1,0 +1,264 @@
+{
+	"basic":{
+		"noperms": "Nie masz uprawnień do użycia tej komendy! "
+	},
+
+	"name": "Polski",
+	
+	"translate":{
+		"name": "Mateusz#4711",
+		"id": "395266229436153868"
+	},
+	
+    "message":{
+        "1": "Ten serwer nie jest na whitelist !\n [Skontaktuj się z właścicielem tutaj](https://discord.gg/ceJCM5Q)",
+		"2": " to prefix! Wpisz ",
+		"3": "pomoc",
+		"4": "Nie mam takiej komendy! Wpisz ",
+		"5": "pomoc**, aby zobaczyć pełną liste komend i pluginów."
+	},
+	"addrole":{
+		"1": "Podaj użytkownika któremu mam dać role! ",
+		"2": "pomoc addrole",
+		"3": "Podaj role ",
+		"4": "Przykro mi, nie znalazłem takiej roli na tym serwerze.",
+		"5": "Ta osoba już ma taką role!",
+		"6": "Dodano role: ",
+		"7": "**Rola**: "
+	},
+	"channel":{
+		"1": "Podaj nową nazwe",
+		"2": "Zmiana nazwy kanału",
+		"3": "Nowa nazwa kanału: "
+	},
+	"clonechannel":{
+		"1": "Podaj nową nazwę kanału! ",
+		"2": "Pomyślnie stworzono klon kanału",
+		"3": "Nazwa: "
+	},
+	"removerole":{
+		"1": "Podaj użytkownika któremu mam zabrać role! ",
+		"2": "Podaj role! ",
+		"3": "Przykro mi, nie znalazłem takiej roli na tym serwerze.",
+		"4": "Ta osoba nie ma takiej roli!",
+		"5": "Zabrano role: ",
+		"6": "**Rola**: "
+	},
+	"help":{
+		"1": "Komendy",
+		"2": "pomoc <komenda>",
+		"3": "Komendy pluginu: ",
+		"4": "Przykro mi, nie mam takiej komendy lub pluginu!",
+		"5": "pomoc <komenda / plugin>",
+		"6": "Nazwa: ",
+		"7": "Użycie: ",
+		"8": "Inne nazwy: ", 
+		"9": "`Brak`",
+		"10": "Opis: ", 
+		"12": "Plugin: ",
+		"13": "Inne",
+		"14": "pomoc",
+		"15": "Pluginy "
+	},
+	"ping":{
+		"1": "Mój ping:"
+	},
+	"report":{
+		"1": "Podaj treść błędu do zgłoszenia",
+		"2": "Zgłoszenie pomyślnie wysłane",
+		"3": "Treść zgłoszenia:"
+	},
+	"calc":{
+		"1": "Podaj liczby",
+		"2": "Jedna z podanych liczb nie jest liczbą!",
+		"3": "Operacja: ",
+		"4": "Wynik: ",
+		"5": "Nie można dzielić przez 0 !"
+	},
+	"howlove":{
+		"1": "Podaj użytkownika <@wzmianka>",
+		"2": "kocha cię na: ",
+		"3": "Jak kochany?"
+	},
+	"kiss":{
+		"1": "Podaj użytkownika <@wzmianka>",
+		"2": "pocałował"
+	},
+	"numbers":{
+		"1": "Błąd, podaj liczby",
+		"2": "Jeden z podanych argumentów nie jest liczbą",
+		"3": "Błąd: Rozważ: * Pierwsza liczba musi byc mniejsza od drugiej | Liczby nie mogą być sobie równe",
+		"4": "Błąd: Liczby nie mogą być mniejsze od -200 i większe od 200!",
+		"5": "Róźnia:",
+		"6": "Suma:",
+		"7": "Iloraz:",
+		"8": "Iloczyn:",
+		"9": "Liczby:"
+	},
+	"coin":{
+		"1": "Orzeł",
+		"2": "Reszka",
+		"3": "jest warty:",
+		"4": "zł",
+		"5": "Okej! Padło na:"
+	},
+	"Oball":{
+		"1": ["Tak", "Nie", "Nie wiem..", "Zapytaj później!", "Może..", "Może tak.. a może nie..", "1945!","Oczywiście.. że nie!", "Oczywiście że tak!", "W twoich snach", "nwm", "No chyba nie", "XD", "Chciał byś", "Taaak", "Jasne", "Jutro", "Za miesiąc", "Chyba gałe", "Nie pytaj sie o to bo ci zrobię z dupy jesień średniowiecza", "Twój kot mi to powiedział", "Jak mi powiesz ile masz lat...", "Jestem", "Za takie pytania to możesz mieć z dopy jesień średniowiecza!!!!!", "Jak mi zrobisz pierogi <3", "To zależy od stanu pogody!", "Jak skończysz 18 lat bobasku ty mój <3", "Boli cię głowa? Może masz gorączke! Dzwonie po egzorcyste.", "666", "N I E", "T A K", "Życie.", "Mam focha od teraz.", "Kocham ci||eń - ha a co myślałeś, że kocham ciebie? HA||", "Eluwina jesieniaro!", "koronavirus z Wuhan ci powie!!!!!", "Weź kup mi nowy RAM <3 wyśle ci `lód.png`"],
+		"2": "Tak bez pytania? Podaj pytanie!",
+		"3": "Zdanie, minimum 3 wyrazy",
+		"4": "Pytanie:",
+		"5": "Odpowiedź:"
+	},
+	"random":{
+		"1": "Podaj liczby",
+		"2": "Jedna z podanych liczb nie jest liczbą!",
+		"3": "Losowa liczba:",
+		"4": "Od", 
+		"5": "Do"
+	},
+	"reverse":{
+		"1": "Podaj tekst do odwrócenia!"
+	},
+	"botinfo":{
+		"1": "Hej **!** Jestem",
+		"2": "prosty ale mam wszystkie potrzebne funkcje do zabawy, ciekowste, opieki nad serwer i wiele wiecej!",
+		"3": "Moja aktualna wersja to **2**.0 i dodała mi mase nowych funkcje oraz od teraz jestem napisany na nowej strukturze.",
+		"4": "Moje ID: ",
+		"5": "Mój serwer discord",
+		"6": "Moim autorem jest",
+		"7": "i napisał mnie w całości sam!",
+		"8": "Co ciekawe, moja pierwsza wersja postawa **uwaga**, w __2018__ roku i od tamtej pory umiejętności mojego autora stale sie rozwijają!",
+		"9": "__To co? Widzimy się u ciebie na serwerze? :D__",
+		"10": "Informacje o bocie",
+		"11": "pomoc"
+	},
+	"corona":{
+		"1": "Wszystkich przypadków:",
+		"2": "Wszystkich śmierci:",
+		"3": "Wszystkich wyleczonych:",
+		"4": "Aktywne:",
+		"5": "Krytyczne:",
+		"6": "Przypadków na milion:",
+		"7": "Zachorowań dziś:",
+		"8": "Śmierci dziś:"
+	},
+	"firstmessage":{
+		"1": "Autor pierwszej wiadomości:",
+		"2": "Treść:",
+		"3": "Idź do wiadomości"
+	},
+	"serverinfo":{
+		"1": "Informacje o",
+		"2": "Nazwa serwera:",
+		"3": "ID",
+		"4": "Właściciel:",
+		"5": "Role:",
+		"6": "Kanały:",
+		"7": "Osoby:",
+		"8": "Kanał AFK:",
+		"9": "Poziom MFA:",
+		"10": "Poziom premium:",
+		"11": "Poziom weryfikacji:",
+		"12": "Stworzony:",
+		"13": "Nie ma",
+		"14": "Brak?"
+	},
+	"userinfo":{
+		"1": "Nie znalazłem takiej osoby!",
+		"2": "Uprawnienia:",
+		"3": "Online",
+		"4": "Zaraz wracam",
+		"5": "Nie przeszkadzać",
+		"6": "Offline / Ukryty",
+		"7": "Nazwa",
+		"8": "Wzmianka",
+		"9": "ID",
+		"10": "Pseudonim", "11": "Brak",
+		"12": "Kolor",
+		"13": "Możliwy do zbanowania?", "14": "Tak", "15": "Nie",
+		"16": "Status",
+		"17": "W", "18": "Nigdzie",
+		"19": "Bot?", "20": "Tak", "21": "Nie",
+		"22": "Ostatnia wiadomość:", "23": "Żadna",
+		"24": "informacje",
+		"25": "Tag"
+	},
+	"ban":{
+		"1": "Podaj użytkownika do zbanowania..",
+		"2": "Przykro mi, tej osoby nie mogę zbanować",
+		"3": "O nie! To mój właściciel!",
+		"4": "Nie możesz zbanować sam siebie!",
+		"5": "Nie podano powodu",
+		"6": "Zbanowano:",
+		"7": "Powód:",
+		"8": "Moderator:"
+	},
+	"broadcast":{
+		"1": "Złe użycie",
+		"2": "Ogłoszenie",
+		"3": "Podaj treść!"
+	},
+	"clear":{
+		"1": "Podaj ilość wiadomości do przetłumaczenaia",
+		"2": "Podana ilość nie jest liczbą!",
+		"3": "Usunięto",
+		"4": "wiadomości"
+	},
+	"kick":{
+		"1": "Podaj użytkownika do wyrzucenia.",
+		"2": "Przykro mi, tej osoby nie mogę wyrzucić",
+		"3": "Nie możesz wyrzucić sam siebie!",
+		"4": "Nie podano powodu",
+		"5": "Wyrzucono:",
+		"6": "Powód:",
+		"7": "Moderator:"
+	},
+	"mute":{
+		"1": "Podaj osobę do wycieszenia / odciszenia",
+		"2": "Ta osoba ma odpowiednie uprawnienia. Nie możesz wykonać na niej tej komendy. Posiada",
+		"3": "Dlaczego chcesz wyciszyć sam siebie?",
+		"4": "Nie znalazłem roli mute, więc ją stworzyłem.",
+		"5": "Nie podano powodu",
+		"6": "Wyciszono:",
+		"7": "Powód:",
+		"8": "Moderator:",
+		"9": "Odciszono:"
+	},
+	"say":{
+		"1": "Podaj tekst"
+	},
+	"warn":{
+		"1": "Podaj osobe",
+		"2": "Nie podano powodu",
+		"3": "Ostrzeżenie dla:",
+		"4": "Powód:",
+		"5": "Ostrzeżenie od:"
+	},
+	"avatar":{
+		"1": "Nie znalazłem takiej osoby",
+		"2": "avatar"
+	},
+	"today":{
+		"1": "Data i godzina"
+	},
+	"lastmessage":{
+		"1": "Błąd: Podaj osobe",
+		"2": "Nie możesz sprawdzić na sobie, ale czas wynosi: 0 sekund",
+		"3": "Ostatnio widziany:",
+		"4": "temu",
+		"5": "d",
+		"6": "g",
+		"7": "m",
+		"8": "s"
+	},
+	"role":{
+		"1": "Nie jestem pewien, ale na tym serwerze nie ma takiej roli",
+		"2": "ID",
+		"3": "Nazwa",
+		"4": "Wzmianka?",
+		"5": "Tak", "6": "Nie",
+		"7": "Kolor:",
+		"8": "Wszystko o:",
+		"9": "Uprawnienia"
+	}
+}
