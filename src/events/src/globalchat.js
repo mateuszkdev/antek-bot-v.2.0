@@ -11,7 +11,7 @@ module.exports = async (message) => {
     if(message.content.includes('@everyone') || message.content.includes('@here')) return 
     
     
-    const weebhook = new Discord.WebhookClient('690238468403625991', 'WObwJjxWhaKrXXwhplQ-F-wtGIsLRcnfwOndhZN1JdWqi81iUXWF66zf3ysS9XEm6tKO')
+    const weebhook = new Discord.WebhookClient('690238468403625991', 'ojojoj')
     
     if(url == ""){
     weebhook.send(`${message.content}`, {
